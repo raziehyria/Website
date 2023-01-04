@@ -9,12 +9,16 @@
         <h1> Contact me</h1>
         <p> For any inquries or to find out more about me, see below</p>
         <!-- creating a form-->
-        <form class=""" action="index.html" method-="post">
-            <label> Your Name: </label>
-            <input type="text" name="" value="""> <br>
+        <form action="mailto:rxh5373@psu.edu" method-="post" enctype="text/plain" <!-- look into these attributes-->
+            <label for="name"> Your Name: </label><br>
+            <input id="name" type="text" name="yourName" value="""> <br>
+            <label for="email"> Your Email: </label>
+            <input id="email" type="email" name="yourEmail" value="""> <br>
+            <label for="inquiry"> Your inquiry: </label><br>
+            <textarea id="inquiry" name="yourinquiry" rows="8" cols="" placeholder="Put your message here..."> </textarea> <br>
             <label> Would you like to schedule a meeting?</label>
-            <input type="checkbox" name="yes">
-            <input type="submit" name="">
+            <input type="checkbox" name="meeting">
+            <input type="submit" name="submitForm">
         </form>
         
         </center>
