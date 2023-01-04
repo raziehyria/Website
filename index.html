@@ -11,12 +11,6 @@
             height: 200px;
             border-radius: 50%;
         }
-        table,
-        td{
-            border: 1px solid #333;
-        }
-
-        }
     </style>
 </head>
 <!-- main body of text -->
@@ -88,19 +82,55 @@
     
     <hr size="2" noshade>
     <h3>Skills</h3>
-    <table cellspacing="5">
+    <table cellspacing="10">
         <tbody>
+            <!-- NEW NESTED ELEMENT-->
             <tr>
-                <td>Python</td>
-                <td>&#11088;&#11088;&#11088;&#11088;&#11088;</td>
-                <td>Html</td>
-                <td>&#11088;&#11088;&#11088;</td>
+                <td>
+                    <!-- nested table start-->
+                    <table>
+                        <tr>
+                            <td>Python</td>
+                            <td>&#11088;&#11088;&#11088;&#11088;&#11088;</td>
+                        </tr>
+                    </table>
+                    <!-- nested table end-->
+                </td>
+                
+                <td>
+                    <!-- nested table start-->
+                    <table>
+                        <tr>
+                            <td>Html</td>
+                            <td>&#11088;&#11088;&#11088;</td>
+                        </tr>
+                    </table>
+                    <!-- nested table end-->
+                </td>
             </tr>
+
+            <!-- NEW NESTED ELEMENT-->
             <tr>
-                <td>Project Management</td>
-                <td>&#11088;&#11088;&#11088;&#11088;&#11088;&#11088;</td>
-                <td>AI</td>
-                <td>&#11088;</td>
+                <td>
+                    <!-- nested table start-->
+                    <table>
+                        <tr>
+                            <td>Project Management</td>
+                            <td>&#11088;&#11088;&#11088;&#11088;&#11088;&#11088;</td>
+                        </tr>
+                    </table>
+                    <!-- nested table end-->
+                </td>
+                <td>
+                    <!-- nested table start-->
+                    <table>
+                        <tr>
+                            <td>AI</td>
+                            <td>&#11088;</td>
+                        </tr>
+                    </table>
+                    <!-- nested table end-->
+                </td>
             </tr>
         </tbody>
     </table>
@@ -109,8 +139,6 @@
     <h3>Contact</h3>
     <a href="contact.html">Contact Me</a>
     
-    
-
     
 </body>
 </html>
